@@ -1,0 +1,90 @@
+
+	
+	body {
+		background: url('../images/vintage-concrete.png');
+		min-height: 100vh; 
+	}
+	
+	.portItem {
+		position: relative;
+	}
+	
+	.portLabelContainer {
+		
+		width: 100%;
+		position: absolute;
+		height: 2.5em;
+		
+		bottom: 1em;
+	}
+	
+	h3.portLabel {
+		width: 100%;
+		max-width: 320px;
+
+		height: 100%;
+		margin: 0 auto;
+		background: #822;
+		color: #FEE;
+		text-align: center;
+		transition: background .3s;
+	}
+	
+	.portItem:hover h3.portLabel {
+		background: #A66;
+		color: #FEE;
+		transition: background .3s;
+	}
+	
+	img.portImage {
+		border: 1px solid #822;
+		width: 320px;
+		height: 240px ;
+	}
+	
+	.flex-grow {
+		flex: 1;
+	}
+    aside a {
+        text-decoration: none;
+		position: relative;
+    }
+	aside a:hover {
+		text-decoration: none;
+	}
+	
+    aside a img {
+        width: 60px;
+        height: 60px;
+        margin: 3px;
+		/* Animation */
+			position: relative;
+			top: 0;
+			left: 0;
+			box-shadow: none;
+			outline: none;
+			transition: top 0.2s, left 0.2s, box-shadow .3s, outline .5s; 
+	}
+		
+	aside a:hover img { 
+		/* Animation */
+			box-shadow: 2px 2px 2px #444, 5px 5px 5px #999;
+			outline: 1px solid black;
+			outline-offset: -1px;
+			top: -10px;
+			left: 0px;
+			transition: top 0.2s, left 0.2s, box-shadow .2s, outline .2s;
+	}
+	
+	aside a:active img {
+		outline: 1px solid orange;
+		outline-offset: -1px;
+	}
+    
+    .connect-list {
+        text-align: center;
+    }
+
+    .navbar {
+    	background-color: #822
+    }
