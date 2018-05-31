@@ -3,6 +3,9 @@
 		background: url('../images/vintage-concrete.png');
 		min-height: 100vh; 
 	}
+	.navbar-brand {
+		cursor: pointer;
+	}
 	
 	.portItem {
 		position: relative;
